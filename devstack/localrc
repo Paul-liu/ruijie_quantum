@@ -1,0 +1,20 @@
+# Networks
+HOST_IP=192.168.21.94
+
+VLAN_INTERFACE=eth0
+
+FIXED_NETWORK_SIZE=256
+
+FIXED_RANGE=10.0.1.0/24                                                                                                                      
+FLOATING_RANGE=192.168.21.92/30
+MULTI_HOST=1
+
+Q_PLUGIN=rgos
+#Q_PLUGIN=openvswitch
+
+LOGFILE=/opt/stack/logs/stack.sh.log
+MYSQL_PASSWORD=ruijie
+RABBIT_PASSWORD=ruijie
+SERVICE_TOKEN=ruijie
+SERVICE_PASSWORD=ruijie
+ADMIN_PASSWORD=ruijie
